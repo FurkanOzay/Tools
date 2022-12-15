@@ -1,0 +1,9 @@
+let sayi = 3.14;
+let cap = process.argv.slice(2);
+function hesapla(cap) {
+let alan = sayi * cap * cap;
+console.log(`Yarıçapı ${cap} olan sayının alanı ${alan} dır`)
+}
+hesapla(4);
+
+// Çıktı sonucu : Yarıçapı 4 olan dairenin alanı 50.24 dır.
